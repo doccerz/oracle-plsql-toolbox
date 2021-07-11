@@ -1,0 +1,1 @@
+expdp METROBANK/METROBANK DIRECTORY=trgdump DUMPFILE=metrobank.dmp LOGFILE=metrobank.log SCHEMAS=METROBANK

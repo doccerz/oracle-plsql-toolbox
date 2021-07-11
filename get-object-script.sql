@@ -1,0 +1,6 @@
+SELECT
+    text
+FROM
+    sys.user_SOURCE
+WHERE
+    UPPER(NAME) = UPPER('GROUPPORTMASTTRIG')
