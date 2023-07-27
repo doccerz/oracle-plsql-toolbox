@@ -1,0 +1,1 @@
+select * from TABLE_NAME as of timestamp systimestamp - interval '1' hour;

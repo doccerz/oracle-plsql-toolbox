@@ -1,0 +1,1 @@
+select to_char(CAST((TO_DATE('1970-01-01','YYYY-MM-DD') + unix_ts / 86400000) as timestamp) ,'YYYY-MM-DD HH24:mi:SS.FF') from dual;
